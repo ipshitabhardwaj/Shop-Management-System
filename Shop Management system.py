@@ -5,7 +5,7 @@ print("╔═══════════════════════�
 print("║                                ♦️ WELCOME TO OUR SHOP ♦️                                               ║")
 print("╚════════════════════════════════════════════╝")
 print("♦️════════════════════════════════════════════♦️")
-mydb=mysql.connector.Connect(host="localhost",user='root',passwd='admin@3890')
+mydb=mysql.connector.Connect(host="localhost",user='root',passwd='password')
 mycursor=mydb.cursor()
 mycursor.execute("create database if not exists sales_new")
 mycursor.execute("use sales_new")
